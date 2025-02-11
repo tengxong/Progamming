@@ -46,7 +46,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.dgvShow = new System.Windows.Forms.DataGridView();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvShow)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,7 +98,6 @@
             this.txtSupID.Name = "txtSupID";
             this.txtSupID.Size = new System.Drawing.Size(667, 58);
             this.txtSupID.TabIndex = 4;
-            this.txtSupID.TextChanged += new System.EventHandler(this.txtSupID_TextChanged);
             // 
             // txtSupName
             // 
@@ -108,7 +107,6 @@
             this.txtSupName.Name = "txtSupName";
             this.txtSupName.Size = new System.Drawing.Size(667, 58);
             this.txtSupName.TabIndex = 5;
-            this.txtSupName.TextChanged += new System.EventHandler(this.txtSupName_TextChanged);
             // 
             // txtContrName
             // 
@@ -118,7 +116,6 @@
             this.txtContrName.Name = "txtContrName";
             this.txtContrName.Size = new System.Drawing.Size(667, 58);
             this.txtContrName.TabIndex = 6;
-            this.txtContrName.TextChanged += new System.EventHandler(this.txtContrName_TextChanged);
             // 
             // txtTel
             // 
@@ -128,7 +125,6 @@
             this.txtTel.Name = "txtTel";
             this.txtTel.Size = new System.Drawing.Size(667, 58);
             this.txtTel.TabIndex = 7;
-            this.txtTel.TextChanged += new System.EventHandler(this.txtTel_TextChanged);
             // 
             // label5
             // 
@@ -187,6 +183,7 @@
             this.btnAdd.Text = "ເພີ່ມຂໍ້ມູນ";
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnEdit
             // 
@@ -201,6 +198,7 @@
             this.btnEdit.Text = "ແກ້ໄຂຂໍ້ມູນ";
             this.btnEdit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDelete
             // 
@@ -214,17 +212,19 @@
             this.btnDelete.Text = "ລົບຂໍ້ມູນ";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dgvShow
             // 
             this.dgvShow.AllowUserToOrderColumns = true;
             this.dgvShow.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvShow.Location = new System.Drawing.Point(30, 712);
+            this.dgvShow.Location = new System.Drawing.Point(30, 722);
             this.dgvShow.Name = "dgvShow";
             this.dgvShow.RowHeadersWidth = 82;
             this.dgvShow.RowTemplate.Height = 33;
             this.dgvShow.Size = new System.Drawing.Size(1584, 207);
             this.dgvShow.TabIndex = 15;
+            this.dgvShow.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvShow_CellMouseClick);
             // 
             // label8
             // 
@@ -236,15 +236,15 @@
             this.label8.TabIndex = 9;
             this.label8.Text = "ອິເມວ:";
             // 
-            // textBox1
+            // txtEmail
             // 
-            this.textBox1.Font = new System.Drawing.Font("Saysettha OT", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(1013, 535);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(416, 58);
-            this.textBox1.TabIndex = 10;
-            this.textBox1.TextChanged += new System.EventHandler(this.txtAddress_TextChanged);
+            this.txtEmail.Font = new System.Drawing.Font("Saysettha OT", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(1013, 535);
+            this.txtEmail.Multiline = true;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(416, 58);
+            this.txtEmail.TabIndex = 10;
+            this.txtEmail.TextChanged += new System.EventHandler(this.txtAddress_TextChanged);
             // 
             // frmSupplier
             // 
@@ -256,7 +256,7 @@
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.label6);
@@ -297,6 +297,6 @@
         private System.Windows.Forms.DataGridView dgvShow;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtEmail;
     }
 }

@@ -124,7 +124,7 @@
   <data name="ຕງຄາລະບບToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADUAAAA1CAYAAADh5qNwAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAABwVJREFUaEPtmVtMFFcYx23apH1oH5o2TR/a1yZ9afvSe9K+NGnSpqClNLiyFsVQ
+        DgAACw4BQL7hQQAABwVJREFUaEPtmVtMFFcYx23apH1oH5o2TR/a1yZ9afvSe9K+NGnSpqClNLiyFsVQ
         AS+s3ALeK621KhVrhSWgELmIgFx0pVhuyy67CLuzF69QFFZ0d0ZEFquiCP035ywz7MwsONiyQsKX/F7O
         mXPO99vzzZkZWLRoIRZiIRbi/4qQlXkvfKk6+CJPzIbil2fCVGPV8YUv+fdNBVlfmtNjR6haGxcaqXWF
         qrXwZ116OTZsrlRM+Mo8YWxs8lGhPSaxVDTvtERqXYsjtbHSHGcUXy3PiZRNPMHK9UWyxKcjau0RYaw6
@@ -160,7 +160,7 @@
   <data name="ຈດການຂມນພນຖານToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAABgJJREFUaEPtmX1sU1UYxmfUqFETEzEoif+oG/4Fysz4iLQ7px1b6TpbpMo62G27
+        DgAACw4BQL7hQQAABgJJREFUaEPtmX1sU1UYxmfUqFETEzEoif+oG/4Fysz4iLQ7px1b6TpbpMo62G27
         bhHGpnyMZFuvHQJZejsFBWGIDFCymaF82XbEED6SxSjMBKJ8mDj5dgOlqIENde1rTrte2vfedq3hlpnw
         JE+49Jz7nt9z7z3nnptlZd3VXd3VbdOUKVMeIoSUUko/p5SeIoRcp5RC1BqNJh+fM2qUn5//KiHkXCww
         NiHkID5vVIhS+g6GTWRCyI+EEDeldCyuc0dECKnHkCn6T0LILFwvo6KU5lFK/5GBS8mEkCFKaQGumzER
@@ -192,7 +192,7 @@
   <data name="ຈດການສນຄາToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAAWNJREFUaEPtmTFOAkEYRrmHhSTaUWiPBZ2Aa1wuYMcZjJVi9gjcQRvhFnAPOcgY
+        DgAACw4BQL7hQQAAAWNJREFUaEPtmTFOAkEYRrmHhSTaUWiPBZ2Aa1wuYMcZjJVi9gjcQRvhFnAPOcgY
         wEnIy477FRP+v5iXvGaS/+NlW3q9QqFQcMfb9mO62DS7xbYJLjy2TNiZxFX8n++b5oedSXjsRXYm4aEX
         2ZmEh15kZxIeepGdSXjoRXYm4aEX2dlJta6DB9klwyEr2SXDISvZJcMhK9klwyEr2SXDISvZJcMhK9kl
         wyEr2SXDISvZJcMhK9klwyEr2SXDISvZJcMhK9klwyEr2SXDISvZJcMhK9klw6FcDpejcLccdb5F2SXD
@@ -204,7 +204,7 @@
   <data name="ຂາຍສນຄາToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAA1NJREFUaEPt2VmofWMYx/GPIbPMQy4UGSIhw41ZFJmS4R8iJBdCcWfMkJBC5qG4
+        DgAACw4BQL7hQQAAA1NJREFUaEPt2VmofWMYx/GPIbPMQy4UGSIhw41ZFJmS4R8iJBdCcWfMkJBC5qG4
         UYYiQ6FQkpmiDOGCjCHzLHO/ek6t3v6O7ey1/uds9rfe9t7Ps9de693vu37PsJgyZcr/lj3wGv7Aj/X+
         EmzQfnEhsyq+xDU4FB/gZbyFb3FEe8BCZXv8iVXq8+W4H0vhXPyKw5tjFiRZkS9wHQ7Dhzir4z8fX2Ht
         jm3Bknvk1brgm7B8x7cs3sHZHdvEcimebo2TyP6lZsu0jkljwxKEzVrHpBEF+7ok+THcjqtL1U7CIdgN

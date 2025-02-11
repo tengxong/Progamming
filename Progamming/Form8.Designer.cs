@@ -96,9 +96,9 @@
             this.btnDelete.Font = new System.Drawing.Font("Saysettha OT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(797, 1071);
+            this.btnDelete.Location = new System.Drawing.Point(776, 1071);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(177, 72);
+            this.btnDelete.Size = new System.Drawing.Size(198, 72);
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "ລົບຂໍ້ມູນ";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -148,15 +148,11 @@
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.Font = new System.Drawing.Font("Phetsarath OT", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label4.Location = new System.Drawing.Point(-2, 9);
+            this.label4.Location = new System.Drawing.Point(-2, -5);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(1977, 83);
+            this.label4.Size = new System.Drawing.Size(1986, 109);
             this.label4.TabIndex = 4;
             this.label4.Text = "ຟອມຂໍ້ມູນປະເພດສີນຄ້າ";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -165,7 +161,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1975, 1167);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -178,10 +173,8 @@
             this.Controls.Add(this.txtPtTypeName);
             this.Controls.Add(this.txtPtTypeID);
             this.Cursor = System.Windows.Forms.Cursors.Default;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "frmProductType";
             this.Text = "frmProductType";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             ((System.ComponentModel.ISupportInitialize)(this.dgvShowData)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

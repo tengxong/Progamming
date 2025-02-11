@@ -128,6 +128,7 @@
             this.ຂມນລກຄາToolStripMenuItem.Name = "ຂມນລກຄາToolStripMenuItem";
             this.ຂມນລກຄາToolStripMenuItem.Size = new System.Drawing.Size(405, 60);
             this.ຂມນລກຄາToolStripMenuItem.Text = "ຂໍ້ມູນລູກຄ້າ";
+            this.ຂມນລກຄາToolStripMenuItem.Click += new System.EventHandler(this.ຂມນລກຄາToolStripMenuItem_Click);
             // 
             // ຂມນປະToolStripMenuItem
             // 
@@ -141,6 +142,7 @@
             this.ຂມນສນຄາToolStripMenuItem.Name = "ຂມນສນຄາToolStripMenuItem";
             this.ຂມນສນຄາToolStripMenuItem.Size = new System.Drawing.Size(405, 60);
             this.ຂມນສນຄາToolStripMenuItem.Text = "ຂໍ້ມູນສີນຄ້າ";
+            this.ຂມນສນຄາToolStripMenuItem.Click += new System.EventHandler(this.ຂມນສນຄາToolStripMenuItem_Click);
             // 
             // ຈດການສນຄາToolStripMenuItem
             // 
@@ -208,6 +210,7 @@
             this.ລາຍງານສນຄາໃນຮານToolStripMenuItem.Name = "ລາຍງານສນຄາໃນຮານToolStripMenuItem";
             this.ລາຍງານສນຄາໃນຮານToolStripMenuItem.Size = new System.Drawing.Size(475, 60);
             this.ລາຍງານສນຄາໃນຮານToolStripMenuItem.Text = "ລາຍງານສີນຄ້າໃນຮ້ານ";
+            this.ລາຍງານສນຄາໃນຮານToolStripMenuItem.Click += new System.EventHandler(this.ລາຍງານສນຄາໃນຮານToolStripMenuItem_Click);
             // 
             // ລາຍງານຂມນຜສະໜອງToolStripMenuItem
             // 
@@ -247,11 +250,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(2021, 1075);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMainMenu";
             this.Text = "frmMainMenu";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMainMenu_FormClosed);

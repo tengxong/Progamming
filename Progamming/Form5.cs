@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,11 @@ namespace Progamming
         {
             InitializeComponent();
         }
-
+        string strConnect = @"Data Source=TENG\SQLEXPRESS;Initial Catalog=minDB_4com1;Integrated Security=True;";
+        SqlConnection conn = null;
+        SqlCommand cmd = null;
+        SqlDataReader dr = null;
+        SqlDataReader dar = null;
         private void btnExit_Click(object sender, EventArgs e)
         {
             this .Close();
@@ -26,7 +31,15 @@ namespace Progamming
         {
             string username = txtUserName.Text;
             string pwd = TxtPwd.Text;
-            if (username == "admin" && pwd == "admin") 
+            string sql = "select * from tbusers where userName = '" + username + "' and password_code= '" + pwd + "'";
+            conn = new SqlConnection(strConnect);
+            conn.Open();
+            cmd = new SqlCommand(sql, conn);
+            dr = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(dr);
+            conn.Close();
+            if (dt.Rows.Count != 0) 
             {
                 MessageBox.Show("ຍິນດີຕ້ອນຮັບທ່ານເຂົ້າສູ່ລະບົບ!");
                 frmMainMenu frm = new frmMainMenu();
@@ -38,5 +51,10 @@ namespace Progamming
             }
         }
 
+        //private void frmLogin_Load(object sender, EventArgs e)
+        //{
+
+        //    //this.reportViewer1.RefreshReport();
+        //}
     }
 }

@@ -37,6 +37,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.reportAction1 = new Microsoft.AnalysisServices.ReportAction();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -134,6 +135,16 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // reportAction1
+            // 
+            this.reportAction1.Application = null;
+            //this.reportAction1.Description = null;
+            //this.reportAction1.Name = null;
+            //this.reportAction1.OwningCollection = null;
+            this.reportAction1.Path = null;
+            this.reportAction1.ReportServer = null;
+            //this.reportAction1.SiteID = "reportAction1";
+            // 
             // frmLogin
             // 
             this.AcceptButton = this.btnLogin;
@@ -162,5 +173,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox TxtPwd;
         private System.Windows.Forms.TextBox txtUserName;
+        private Microsoft.AnalysisServices.ReportAction reportAction1;
     }
 }

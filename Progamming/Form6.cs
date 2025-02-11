@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,11 +16,6 @@ namespace Progamming
         public frmMainMenu()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
 
         private void ຈດການສນຄາToolStripMenuItem_Click(object sender, EventArgs e)
@@ -51,6 +47,30 @@ namespace Progamming
             frm.Show();
             frm.WindowState=FormWindowState.Maximized;
             frm.MdiParent=this;
+        }
+
+        private void ຂມນສນຄາToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _4COM_IT_App.frmProducts frm = new _4COM_IT_App.frmProducts();
+            frm.Show();
+            frm.WindowState = FormWindowState.Maximized;
+            frm.MdiParent = this;
+        }
+
+        private void ຂມນລກຄາToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCustomer frm = new frmCustomer();
+            frm.Show();
+            frm.WindowState = FormWindowState.Maximized;
+            frm.MdiParent = this;
+        }
+
+        private void ລາຍງານສນຄາໃນຮານToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmrptProductViewer frm = new frmrptProductViewer();
+            frm.Show();
+            frm.WindowState = FormWindowState.Maximized;
+            frm.MdiParent = this;
         }
     }
 }
